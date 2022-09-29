@@ -130,3 +130,7 @@ plt.legend(fontsize=13)
 plt.tight_layout()
 plt.grid(True)
 
+# Guardo los datos en un txt
+
+j=1 # le pongo una etiqueta
+np.savetxt('data_{}.txt'.format(j),np.column_stack([t1,vmedido1,y1,t2,vmedido2,y2]),delimiter=',')
