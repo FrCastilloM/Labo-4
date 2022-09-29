@@ -1,0 +1,2 @@
+# Labo-4
+Códigos y manuales para medir temperatura usando termocuplas tipo k multimetros Hewlett Packard 34410A. Se agregan también los manuales de la fuente/multímetro agilent B2901A. El código permite la medición de temperatura en función del tiempo, registrando los voltajes medidos en las termocuplas y usando las tablas de calibración para pasarlo a temperatura (teniendo en cuenta la corrección de la temperatura de referencia).
