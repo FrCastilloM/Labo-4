@@ -18,7 +18,7 @@ plt.rc('ytick', labelsize=12)
 y=np.loadtxt("modo1_señal.csv")
 t=np.loadtxt("modo1_tiempo.csv")
 
-t=t-t[0]
+t=t-t[0] # hago una traslacion temporal para que empiece de 0
 fs=10000 # frec de muestreo de esta medicion
 
 # verifico que la frecuencia de muestreo sea la correcta
